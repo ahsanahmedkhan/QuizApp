@@ -1,31 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
-</head>
-<body>
-    <div class="container">
-       <div id="quiz"></div>
-
-        </div>
-
-        <button id="submit">Submit Quiz</button>
-
-        <div id="results"></div>
-        
-    </div>
-    
-
-
-
-
-<script>
-
 function buildQuiz(){
     // variable to store the HTML output
     const output = [];
@@ -136,9 +108,3 @@ function buildQuiz(){
 
   // Event listeners
   submitButton.addEventListener('click', showResults);
-
-</script>
-
-</body>
-
-</html>
